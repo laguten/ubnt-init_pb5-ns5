@@ -9,6 +9,8 @@ For scripts working need install sshpass:
 
 And add two lines in  ~/.ssh/config
 <code>
+  
 StrictHostKeyChecking no
+  
 UserKnownHostsFile=/dev/null
 </code>
