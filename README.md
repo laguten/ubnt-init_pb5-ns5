@@ -15,3 +15,5 @@ apt install sshpass
 StrictHostKeyChecking no
 UserKnownHostsFile=/dev/null
 ```
+
+Also dowhload request Firmware XW or XM  from [UBNT](https://www.ubnt.com/download/airmax-m) to the same local folder.
