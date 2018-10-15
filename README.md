@@ -8,8 +8,7 @@ Download UBNTMOD from http://incredigeek.com/home/downloads/ubntmod/ubntmod.sh
 * For scripts working need install sshpass:
 <code> apt install sshpass </code>
 
-* And add two lines in  ~/.ssh/config: 
-<code>  
+* And add two lines in  ~/.ssh/config: <code>  
 StrictHostKeyChecking no
 UserKnownHostsFile=/dev/null
 </code>
