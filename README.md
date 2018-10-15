@@ -16,4 +16,4 @@ StrictHostKeyChecking no
 UserKnownHostsFile=/dev/null
 ```
 
-Also dowhload request Firmware XW or XM  from [UBNT](https://www.ubnt.com/download/airmax-m) to the same local folder.
+Also dowhload request Firmware XW or XM  from oficial Ubiquiti Networks, Inc [site](https://www.ubnt.com/download/airmax-m) to the same local folder.
