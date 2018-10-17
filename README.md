@@ -10,10 +10,16 @@ Please [download UBNTMOD](http://incredigeek.com/home/downloads/ubntmod/ubntmod.
 apt install sshpass
 ```
 
-* And add two lines in  ~/.ssh/config:
+* And recomended add two lines in  ~/.ssh/config:
 ```sh
 StrictHostKeyChecking no
 UserKnownHostsFile=/dev/null
 ```
 
-Also dowhload request Firmware XW or XM  from oficial Ubiquiti Networks, Inc [site](https://www.ubnt.com/download/airmax-m) to the same local folder.
+Also dowhload request Firmware XW, XM or TI series from oficial Ubiquiti Networks, Inc [site](https://www.ubnt.com/download/airmax-m) to the same local folder.
+
+Script groupe 0-fw2TI.sh, 0-fw2XM.sh and 0-fw2XW.sh upload neccesary firmware from current local folder. Choose script what you need firmware.
+
+Script 1-config2U.sh upload your config file  U-000000000000.cfg from same folder.
+
+And script 2-enable_ct.sh applayed Compliance Test mode for you UBNT devices. Please check correct login and password for UBNT device after applayed you config.
